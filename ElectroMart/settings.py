@@ -155,8 +155,6 @@ JWT_AUTH = {
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# STRIPE_SECRET_KEY="sk_test_51PuWzsSFfQsXv0DMDAAP5ZccVZdtbNlvm5EqlVG9kjIIKKIMfRm1txKh6LurfLTxK68UzS9DdicOVd21lKItOFbC00Kgzuja2L"
-# STRIPE_PUBLISHABLE_KEY="pk_test_51PuWzsSFfQsXv0DM24xGZVECjbhSqCJ04cvHdGT9G9RWLLZRcdk9uKrYeK73EaWDvmMiwT9mCazDoHmLP3JxEKT1005JEN40G3"
 
 import os
 from dotenv import load_dotenv
